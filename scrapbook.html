@@ -90,7 +90,7 @@ function startMusic()
 const TOTAL = 21;
 for (let i = 1; i <= TOTAL; i++) {
     $("#flipbook").append(
-        `<div class='page' style="background-image:url('pages/${i}.png')"></div>`
+        `<div class='page' style="background-image:url('${i}.png')"></div>`
     );
 }
 
@@ -132,3 +132,4 @@ window.addEventListener("resize", () => {
 
 </body>
 </html>
+
